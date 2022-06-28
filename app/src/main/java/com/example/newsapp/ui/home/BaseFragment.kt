@@ -43,13 +43,13 @@ class BaseFragment : Fragment() {
                         tab.text = "Top"
                     }
                     1 -> {
-                        tab.text = "Negócios"
+                        tab.text = "Health"
                     }
                     2 -> {
-                        tab.text = "Tecnologia"
+                        tab.text = "Tech"
                     }
                     3 -> {
-                        tab.text = "Esportes"
+                        tab.text = "Sports"
                     }
                 }
             }.attach()

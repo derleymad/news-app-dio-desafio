@@ -16,7 +16,7 @@ class PagerAdapter(fragmentActivity: FragmentActivity) :
                     HomeFragment(ALL)
                 }
                 1 -> {
-                    HomeFragment(BUSINESS)
+                    HomeFragment(HEALTH)
                 }
                 2 -> {
                     HomeFragment(TECH)

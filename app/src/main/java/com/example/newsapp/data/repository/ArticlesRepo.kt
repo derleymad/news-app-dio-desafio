@@ -49,8 +49,8 @@ class ArticlesRepo @Inject constructor(
                 ALL -> {
                     api.getAll(API_KEY, LANGUAGE, page)
                 }
-                BUSINESS -> {
-                    api.getCategory(API_KEY, LANGUAGE, BUSINESS, page)
+                HEALTH -> {
+                    api.getCategory(API_KEY, LANGUAGE, HEALTH, page)
                 }
                 TECH -> {
                     api.getCategory(API_KEY, LANGUAGE, TECH, page)

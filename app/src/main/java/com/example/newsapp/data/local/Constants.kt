@@ -9,11 +9,10 @@ object Constants {
     const val PAGE_SIZE = 20
     const val STARTING_PAGE_INDEX = 1
     const val MODEL = "ARTICLE_MODEL"
-    const val LANGUAGE = "pt"
+    const val LANGUAGE = "en"
     const val TECH = "technology"
-    //const val COUNTRY = "br"
     const val SPORT = "sports"
-    const val BUSINESS = "business"
+    const val HEALTH = "health"
     const val ALL = "ALL_CATEGORY"
     const val SAVE = "SHARE"
     const val DELETE = "delete"
