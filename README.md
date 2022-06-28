@@ -23,12 +23,22 @@ Tudo implementado com o princípio SOLID, e Clean Code.
 
 ## Screenshots
 
-<img src="images/0-splash.jpg" width="200" style="display: inline;">
-<img src="images/1-home.jpg" width="200" > <img src="images/2-saved.jpg" width="200"> <img src="images/3-saved-remove.jpg" width="200">
-<img src="images/4-network.jpg" width="200" >
+![tela inicial](images/0-splash.jpg)
+![tela home](images/1-home.jpg)
+![salvos](images/2-saved.jpg)
+![removendo salvos](images/3-saved-remove.jpg)
+![network](images/4-network.jpg)
+![não salvos](images/4-no-saved.jpg)
+![configurações](images/5-settings.jpg)
+
+
+
+<img src="" width="200" style="display: inline;">
+<img src="" width="200" > <img src="" width="200"> <img src="" width="200">
+<img src="" width="200" >
 <img src="images/3-details.jpg" width="200" >
-<img src="images/4-no-saved.jpg" width="200" >
-<img src="images/5-settings.jpg" width="200" >
+<img src=".jpg" width="200" >
+<img src="" width="200" >
 
 ## Tecnologia
 
