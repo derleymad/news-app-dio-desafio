@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.newsapp.R
 import com.example.newsapp.databinding.FragmentBaseBinding
 import com.example.newsapp.ui.adapter.PagerAdapter
 import com.google.android.material.tabs.TabLayoutMediator
@@ -25,7 +26,7 @@ class BaseFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        (activity as AppCompatActivity).supportActionBar?.title = "Home"
+        (activity as AppCompatActivity).supportActionBar?.title = this.context?.getString(R.string.title_base)
         _binding = FragmentBaseBinding.inflate(inflater, container, false)
 
         setupTabLayout()
@@ -40,16 +41,16 @@ class BaseFragment : Fragment() {
             TabLayoutMediator(tabLayout, viewPager) { tab, position ->
                 when (position) {
                     0 -> {
-                        tab.text = "Top"
+                        tab.text = context?.getString(R.string.tab_top)
                     }
                     1 -> {
-                        tab.text = "Health"
+                        tab.text = context?.getString(R.string.tab_business)
                     }
                     2 -> {
-                        tab.text = "Tech"
+                        tab.text = context?.getString(R.string.tab_tech)
                     }
                     3 -> {
-                        tab.text = "Sports"
+                        tab.text = context?.getString(R.string.tab_sports)
                     }
                 }
             }.attach()

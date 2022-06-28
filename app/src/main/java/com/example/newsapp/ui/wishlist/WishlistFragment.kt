@@ -39,7 +39,7 @@ class WishlistFragment : Fragment(), OnAdapterClick, View.OnClickListener {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        (activity as AppCompatActivity).supportActionBar?.title = "Saved"
+        (activity as AppCompatActivity).supportActionBar?.title = this.context?.getString(R.string.title_saved)
         // Inflate the layout for this fragment
         _binding = FragmentWishlistBinding.inflate(inflater, container, false)
 

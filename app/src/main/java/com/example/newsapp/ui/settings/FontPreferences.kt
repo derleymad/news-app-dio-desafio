@@ -1,10 +1,14 @@
 package com.example.newsapp.ui.settings
 
+import android.content.Context
+import android.content.res.Resources
+import android.provider.Settings.Global.getString
 import android.widget.SeekBar
 import android.widget.TextView
 import com.example.newsapp.data.local.Constants
 import com.example.newsapp.data.local.UserPreferences
 import javax.inject.Inject
+import kotlin.coroutines.coroutineContext
 
 class FontPreferences @Inject constructor(private val userPreferences: UserPreferences) {
 

@@ -31,12 +31,13 @@ class SettingFragment : Fragment(), View.OnClickListener, CompoundButton.OnCheck
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        (activity as AppCompatActivity).supportActionBar?.title = "Settings"
+        (activity as AppCompatActivity).supportActionBar?.title = this.context?.getString(R.string.title_settings)
         // Inflate the layout for this fragment
         _binding = FragmentSettingsBinding.inflate(inflater, container, false)
 
         readData()
         initViews()
+
         return binding.root
     }
 
@@ -81,6 +82,32 @@ class SettingFragment : Fragment(), View.OnClickListener, CompoundButton.OnCheck
     // Retrieve font size via shared preferences
     // to update current state of font size textView
     private fun readData() {
+        binding.apply {
+            Constants.apply {
+                userPreferences.apply {
+                    when {
+                        readFontSize(FONT_SIZE) == FOURTEEN -> {
+                            tvFont.text = SMALL
+                        }
+                        readFontSize(FONT_SIZE) == SIXTEEN -> {
+                            tvFont.text = DEFAULT
+                        }
+                        readFontSize(FONT_SIZE) == EIGHTEEN -> {
+                            tvFont.text = LARGE
+                        }
+                        readFontSize(FONT_SIZE) == TWENTY -> {
+                            tvFont.text = EXTRA_LARGE
+                        }
+                        readFontSize(FONT_SIZE) == TWENTY_TWO -> {
+                            tvFont.text = JUMBO
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private fun readData2() {
         binding.apply {
             Constants.apply {
                 userPreferences.apply {

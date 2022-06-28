@@ -5,14 +5,16 @@ import com.example.newsapp.data.model.Article
 
 object Constants {
     const val BASE_URL = "https://newsapi.org/v2/"
-    const val API_KEY = "ca9c1cab47bb435ca4288f360849c3d2"
+    const val API_KEY = "338e73b265844c1382960d3ed228e52a"
     const val PAGE_SIZE = 20
-    const val STARTING_PAGE_INDEX = 1
+    const val STARTING_PAGE_INDEX = 2
     const val MODEL = "ARTICLE_MODEL"
-    const val LANGUAGE = "en"
+    const val LANGUAGE = "pt"
+    const val COUNTRY = "br"
     const val TECH = "technology"
     const val SPORT = "sports"
     const val HEALTH = "health"
+    const val BUSINESS = "business"
     const val ALL = "ALL_CATEGORY"
     const val SAVE = "SHARE"
     const val DELETE = "delete"

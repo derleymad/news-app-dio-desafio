@@ -22,4 +22,5 @@ interface APIService {
         @Query("category") category: String,
         @Query("page") page: Int
     ): ArticlesResponse
+
 }
