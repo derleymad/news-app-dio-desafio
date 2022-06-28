@@ -22,7 +22,7 @@ Tudo implementado com o princípio SOLID, e Clean Code.
 
 
 ## Screenshots
-<video src="images/gif.mp4"</video>
+
 <img src="images/0-splash.jpg" width="200" style="display: inline;">
 <img src="images/1-home.jpg" width="200" > <img src="images/2-saved.jpg" width="200"> <img src="images/3-saved-remove.jpg" width="200">
 <img src="images/4-network.jpg" width="200" >
