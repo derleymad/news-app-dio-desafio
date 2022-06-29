@@ -9,16 +9,16 @@
 
 ## Informações gerais
 
-Antes de tudo, se você é um dos inspetores que vão analizar meu código do desafio deixe-me esclarecer uma coisa,
-esse aplicativo foi feito em KOTLIN e não java como proposto pelo desafio além disso,
-não se limita apenas à notícias de futebol,
+Antes de tudo, se você é um dos inspetores que vão analizar meu código, preciso me explicar,
+esse aplicativo foi feito em KOTLIN e não java como proposto pelo desafio, além disso,
+não fiz apenas à notícias de futebol,
 visto que preferi me arriscar em terras novas e seguir um desafio de verdade,
 seguindo não apenas o aplicativo proprosto em JAVA e sobre FUTEBOL nas aulas.
 Sendo posto, adicionei um setor de negócios que está relacionado ao programa Santander,
-além de outros variados tópicos (incluso o de esportes). Sendo assim podemos proseguir :)
+além de outros variados tópicos (incluso o de esportes). Agora podemos proseguir :)
 
-Os tópicos são inclusos em quatro categorias: Melhores, Negócios, Inovação, Esportes.
-Tudo implementado com o princípio SOLID, e Clean Code.
+Os tópicos são inclusos em quatro categorias: **Melhores**, **Negócios**, **Inovação**, **Esportes**.
+Tudo implementado com o princípio SOLID, e Clean Code, além disso foi utilizado a api do Google para requisição das notícias.
 
 
 ## Screenshots
@@ -72,7 +72,7 @@ para pegar a sua chave principal (substitua ela pela atual em data/local/Constan
 ```html
 MIT Licence 
 
-Copyright (c) 2022 Ahmed Zaki
+Copyright (c) 2022 Wanderley Filho
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software
 and associated documentation files (the "Software"), to deal in the Software without restriction,
