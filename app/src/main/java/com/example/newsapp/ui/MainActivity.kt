@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity(),
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //initViews()
+        initViews()
         // If there's a network available
         networkConnection.registerNetworkCallback()
         Coroutines.background {
