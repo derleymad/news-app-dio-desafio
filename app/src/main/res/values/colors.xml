@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#cb0002</color>
-    <color name="purple_700">#cb0002</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="red">#cb0002</color>
-    <color name="grayLight">#ECEFF1</color>
-    <color name="news_title">#ECEFF1</color>
+    <color name="lightGray">#c7c7c7</color>
+    <color name="errorDelete">#B00020</color>
+    <color name="back_ground_dark">#1b1b1b</color>
+
+    <!--TEMA ESCURO-->
+    <color name="primaryColorDarkMode">#fafafa</color>
+    <color name="primaryLightColorDarkMode">#ffffff</color>
+    <color name="primaryDarkColorDarkMode">#c7c7c7</color>
+    <color name="primaryTextColorDarkMode">#000000</color>
+
+    <!--TEMA CLARO-->
+    <color name="primaryColor">#424242</color>
+    <color name="primaryLightColor">#6d6d6d</color>
+    <color name="primaryDarkColor">#1b1b1b</color>
+    <color name="secondaryColor">#d32f2f</color>
+    <color name="secondaryLightColor">#ff6659</color>
+    <color name="secondaryDarkColor">#9a0007</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
 </resources>
