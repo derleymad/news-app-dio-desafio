@@ -23,14 +23,29 @@ Tudo implementado com o princípio SOLID, e Clean Code, além disso foi utilizad
 
 ## Screenshots
 
+## Light Theme
+  <img src="images/gif_light.gif" width="200" />
+
 <p float="left">
-  <img src="images/0-splash.jpg" width="100" />
-  <img src="images/1-home.jpg" width="100" /> 
-  <img src="images/2-saved.jpg" width="100" />
-  <img src="images/3-saved-remove.jpg" width="100" />
-  <img src="images/4-network.jpg" width="100" />
-  <img src="images/4-no-saved.jpg" width="100" />
-  <img src="images/5-settings.jpg" width="100" />
+  <img src="images/light_splash.jpg" width="100" />
+  <img src="images/light_home.jpg" width="100" /> 
+  <img src="images/light_article.jpg" width="100" />
+  <img src="images/light_saved.jpg" width="100" />
+  <img src="images/light_remove.jpg" width="100" />
+  <img src="images/light_config.jpg" width="100" />
+  <img src="images/light_fail_conection.jpg" width="100" />
+</p>
+
+## Dark Theme  
+<img src="images/gif_dark.gif" width="200" />
+<p float="left">
+  <img src="images/dark_splash.jpg" width="100" />
+  <img src="images/dark_home.jpg" width="100" /> 
+  <img src="images/dark_article.jpg" width="100" />
+  <img src="images/dark_saved.jpg" width="100" />
+  <img src="images/dark_remove.jpg" width="100" />
+  <img src="images/dark_config.jpg" width="100" />
+  <img src="images/dark_fail_conection.jpg" width="100" />
 </p>
 
 ## Tecnologia
