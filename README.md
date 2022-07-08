@@ -40,10 +40,10 @@ Tudo implementado com o princípio SOLID, e Clean Code, além disso foi utilizad
 <img src="images/gif_dark.gif" width="200" />
 <p float="left">
   <img src="images/dark_splash.jpg" width="100" />
-  <img src="images/dark_home.jpg" width="100" /> 
+  <img src="images/dark_home.jpeg" width="100" /> 
   <img src="images/dark_article.jpg" width="100" />
-  <img src="images/dark_saved.jpg" width="100" />
-  <img src="images/dark_remove.jpg" width="100" />
+  <img src="images/dark_saved.jpeg" width="100" />
+  <img src="images/dark_remove.jpeg" width="100" />
   <img src="images/dark_config.jpg" width="100" />
   <img src="images/dark_fail_conection.jpg" width="100" />
 </p>
